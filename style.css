@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.barra_nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #181e20;
+    color: #ffffff;
+    padding: 25px 24px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+nav {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+nav a {
+    color: #ffffff;
+    margin-right: 50px;
+}
+.botao {
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+button {
+    margin-right: 25px;
+}
