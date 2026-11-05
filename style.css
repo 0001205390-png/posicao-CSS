@@ -13,7 +13,10 @@
     text-align: center;
     font-weight: bold;
     font-size: 18px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);}
+
+.banner img {
+    width: 100%;
 }
 .logo{
     position: absolute;
@@ -42,4 +45,62 @@ nav a {
 
 button {
     margin-right: 25px;
+    padding: 5px;
+    border-radius: 12px;
+}
+.categoria{
+    text-align: center;
+}
+.produtos{
+    text-align: center;
+}
+
+.produto {
+    display: inline-block;
+}
+main {
+    position: relative;
+}
+section {
+    position: relative;
+}
+#cards{
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    transform: translate(0%,-3%);
+    
+}
+
+.card-img {
+    margin-right: 10px;
+}
+.botao-suporte {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+
+    background-color: #c90000;
+    color: white;
+
+    padding: 15px 22px;
+    border-radius: 50px;
+
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+
+    z-index: 9999;
+    transition: 0.3s;
+}
+
+.botao-suporte:hover {
+    background-color: #000;
+    transform: scale(1.05);
 }
